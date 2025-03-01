@@ -3,7 +3,7 @@ import random
 import hashlib
 
 URL = "http://127.0.0.1:5000"
-n = 55  # For demo; use a larger modulus in production
+n = 91  # use a larger modulus 
 
 def get_secret(prompt):
     secret_str = input(prompt)

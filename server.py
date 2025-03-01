@@ -6,7 +6,7 @@ import os
 
 flase_app = Flask(__name__)
 
-n = 55  # use a large prime
+n = 91  # use a large 
 
 client = MongoClient("mongodb://localhost:27017/zkp_auth")
 db = client["zkp_auth"]
